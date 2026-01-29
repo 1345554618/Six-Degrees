@@ -1,11 +1,10 @@
-server:
-  port: 8080
-
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/six_degrees?useSSL=false&serverTimezone=Asia/Taipei&allowPublicKeyRetrieval=true
-    username: root
-    password: “20030304”
+    username: sixuser
+    password: "six123456"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
