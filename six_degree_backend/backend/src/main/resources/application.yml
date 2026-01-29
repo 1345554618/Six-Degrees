@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/six_degrees?useSSL=false&serverTimezone=Asia/Taipei&allowPublicKeyRetrieval=true
+    username: root
+    password: “20030304”
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
